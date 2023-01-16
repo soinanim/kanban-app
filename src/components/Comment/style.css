@@ -1,0 +1,16 @@
+.comment__author {
+  font-weight: 700;
+}
+
+.comment__content {
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  padding: 8px 12px;
+
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px -1px #091e4240;
+  margin: 4px 2px 4px 25px;
+  max-width: 100%;
+  overflow: hidden;
+}

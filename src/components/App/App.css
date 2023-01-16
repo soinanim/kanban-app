@@ -1,0 +1,11 @@
+@import '../../constants.css';
+
+.app__layout {
+  height: 100vh;
+  background: transparent;
+}
+
+.app__content {
+  padding: 24px;
+  background-color: var(--background-color);
+}
