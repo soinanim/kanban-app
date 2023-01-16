@@ -1,0 +1,58 @@
+@import '../../constants.css';
+
+.ant-layout-header.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-primary);
+  height: 44px;
+}
+
+.header__logo {
+  position: relative;
+  width: 75px;
+  height: 15px;
+  padding: 8px 0;
+  margin: 0;
+  opacity: 1;
+}
+
+.header__logo::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/header-logo.gif');
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  height: 100%;
+}
+
+.header__username {
+  color: #fff;
+  padding: 15px;
+}
+
+.header__button {
+  background-color: #014a75;
+  border: none;
+}
+
+.header__button:hover {
+  background-color: #3588b9;
+}
+
+.header__button a {
+  color: #fff;
+}

@@ -1,0 +1,84 @@
+.card {
+  display: flex;
+  background-color: #fff;
+  height: 40px;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px -1px #091e4240;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #f4f5f7;
+}
+
+.ant-modal .ant-modal-content,
+.ant-modal .ant-modal-header {
+  background-color: #f4f5f7;
+}
+
+.ant-modal .ant-modal-title {
+  color: #172b4d;
+  font-size: 20px;
+  /* font-weight: 600; */
+}
+.modal__title {
+  display: flex;
+  align-items: center;
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  color: #5e6c84;
+  margin: 0 25px 30px;
+}
+
+.header__board-title span,
+.header__author span {
+  text-decoration: underline;
+}
+
+.modal__description,
+.modal__comments {
+  margin-bottom: 30px;
+}
+
+.modal__h3 {
+  display: flex;
+}
+
+.modal__icon {
+  margin-right: 5px;
+}
+
+.modal__description-textarea {
+  width: 95%;
+  margin: 0 25px 10px;
+}
+
+.ant-btn-primary {
+  background-color: #0079bf;
+  color: #fff;
+}
+
+.modal__button {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.modal .ant-btn-primary:hover {
+  background-color: #055a8c;
+}
+
+.modal__comment-textarea {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modal__span {
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
